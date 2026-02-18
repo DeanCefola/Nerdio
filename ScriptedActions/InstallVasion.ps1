@@ -1,7 +1,7 @@
 # --- CONFIG: set these three values ---
 $HomeUrl = "https://YOUR_INSTANCE_URL"         # Vasion/PrinterLogic HOMEURL
 $AuthCode = "PASTE_AUTHORIZATION_CODE_HERE"    # Vasion/PrinterLogic AUTHORIZATION_CODE
-$MsiSource = "\\servershare\PrinterInstallerClient.msi"  # Option A: UNC path to MSI
+$MsiSource = "https://downloads.printercloud.com/client/setup/PrinterInstallerClient.msi"  # Option A: UNC path to MSI
 # $MsiSource = "https://your-internal-url/PrinterInstallerClient.msi" # Option B: HTTPS
 
 # --- Optional logging ---

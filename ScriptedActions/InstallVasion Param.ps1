@@ -5,8 +5,8 @@ param(
     [Parameter(Mandatory = $true)]
     [string]$AuthCode,
 
-    [Parameter(Mandatory = $true)]
-    [string]$MsiSource
+    [Parameter(Mandatory = $false)]
+    [string]$MsiSource = "https://downloads.printercloud.com/client/setup/PrinterInstallerClient.msi"
 )
 
 $ErrorActionPreference = "Stop"
